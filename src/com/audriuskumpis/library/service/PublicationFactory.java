@@ -53,7 +53,7 @@ public class PublicationFactory {
     }
 
     /**
-     * This method build a publication that was created using setValues methods.
+     * This method builds a publication that was created using setter methods.
      * @return a publication with set methods.
      */
     public Publication build(){

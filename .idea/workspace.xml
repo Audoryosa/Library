@@ -8,6 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/PublicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/PublicationFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +231,8 @@
       <workItem from="1589209360627" duration="6502000" />
       <workItem from="1589274361757" duration="483000" />
       <workItem from="1589276099672" duration="3656000" />
-      <workItem from="1589280983525" duration="803000" />
+      <workItem from="1589280983525" duration="1651000" />
+      <workItem from="1589309392153" duration="402000" />
     </task>
     <servers />
   </component>
@@ -240,7 +244,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

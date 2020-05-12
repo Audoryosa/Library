@@ -23,6 +23,7 @@ class Main {
                 .setIsbn(1)
                 .setReleaseYear(2020)
                 .build();
+
         library.addPublication(book);
 
 //       library.addPublication(PublicationFactory.create(PublicationTypes.ENCYCLOPEDIA, "Big Book of British Smiles", new Author("Dentist", "Guy"), 123, 5555, 2020));

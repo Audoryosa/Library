@@ -100,7 +100,7 @@ class Library implements ILibrary, Serializable {
         StringBuilder stringBuilder = new StringBuilder();
 
         for(Publication book : library){
-            stringBuilder.append(book.getAuthor().toString() + ": \"" + book.getTitle() + "\"\n" );
+            stringBuilder.append(book.getAuthor().toString()).append(": \"").append(book.getTitle()).append("\"\n");
         }
         return stringBuilder.toString();
     }
@@ -111,7 +111,7 @@ class Library implements ILibrary, Serializable {
      */
     public String getSortedDisplay() {
         StringBuilder stringBuilder = new StringBuilder();
-        Collections.sort(library, new Comparator<Publication>() {
+        library.sort(new Comparator<Publication>() {
             @Override
             public int compare(Publication o1, Publication o2) {
                 return o1.getTitle().compareTo(o2.getTitle());
