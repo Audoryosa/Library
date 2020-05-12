@@ -1,0 +1,6 @@
+Publication added: "Some new book, called "A BAD book"" by Some Guy, at 2020/05/11 19:31:40
+Publication added: "Some old book, called "A BAD book"" by Some Guy, at 2020/05/11 19:31:40
+Publication removed: "Some new book, called "A BAD book"" by Some Guy, at 2020/05/11 19:31:40
+Publication added: "Big Book of British Smiles" by Dentist Guy, at 2020/05/11 20:40:24
+Publication added: "Title" by Name Surname, at 2020/05/12 13:04:46
+Publication removed: "Title" by Name Surname, at 2020/05/12 13:07:23
