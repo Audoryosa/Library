@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="" />
+    <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y4hVD0wr2BFyDSpJZhQsSz6UJl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainNumTwo">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LibraryGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="libraryGui.LibraryGUI" />
       <module name="Library" />
@@ -171,14 +177,10 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LibraryGUI" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.BookTest" />
-      <item itemvalue="Application.MainNumTwo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainNumTwo" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LibraryGUI" />
         <item itemvalue="JUnit.BookTest" />
@@ -225,12 +227,24 @@
       <workItem from="1588936098197" duration="6000" />
       <workItem from="1589209360627" duration="6502000" />
       <workItem from="1589274361757" duration="483000" />
-      <workItem from="1589276099672" duration="3056000" />
+      <workItem from="1589276099672" duration="3656000" />
+      <workItem from="1589280983525" duration="803000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="72" y="183" key="#Project_Structure" timestamp="1582207825220">
