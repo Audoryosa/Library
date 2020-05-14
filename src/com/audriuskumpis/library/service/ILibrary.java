@@ -86,4 +86,16 @@ public interface ILibrary {
      */
     void removeFromCart(Publication book);
 
+    /**
+     * Adds an observer to track insertion of books
+     * @param observer
+     */
+    void addInsertionObserver(InsertionObserver observer);
+
+    /**
+     * Adds an observer to track removal of books
+     * @param observer
+     */
+    void addRemovalObserver(RemovalObserver observer);
+
 }

@@ -8,13 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/audriuskumpis/library/driver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/audriuskumpis/library/driver/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/audriuskumpis/library/service/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/audriuskumpis/library/service/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/ILibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/ILibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserverWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserverWithFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/LibraryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/LibraryObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/LibraryObserver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserverWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserverWithFile.java" afterDir="false" />
     </list>
@@ -255,7 +256,8 @@
       <workItem from="1589280983525" duration="1651000" />
       <workItem from="1589309392153" duration="618000" />
       <workItem from="1589433813646" duration="87000" />
-      <workItem from="1589441526179" duration="767000" />
+      <workItem from="1589441526179" duration="2087000" />
+      <workItem from="1589449981043" duration="961000" />
     </task>
     <servers />
   </component>

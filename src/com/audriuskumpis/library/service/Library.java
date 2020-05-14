@@ -10,7 +10,8 @@ class Library implements ILibrary, Serializable {
 
     private List<Publication> library;
     private List<Publication> shoppingCart;
-    private List<LibraryObserver> observers = new ArrayList<>();
+    private List<InsertionObserver> insertionObservers = new ArrayList<>();
+    private List<RemovalObserver> removalObservers = new ArrayList<>();
     private static final long serialVersionUID = 3L;
 
     /**
@@ -21,8 +22,22 @@ class Library implements ILibrary, Serializable {
     Library(){
         library = new ArrayList<>();
         shoppingCart = new ArrayList<>();
-        observers.add(new InsertionObserverWithFile());
-        observers.add(new RemovalObserverWithFile());
+    }
+
+    /**
+     * Adds observer that tracks insertion
+     * @param observer
+     */
+    public void addInsertionObserver(InsertionObserver observer){
+        insertionObservers.add(observer);
+    }
+
+    /**
+     * Adds observer to keep track of publications' removal
+     * @param observer
+     */
+    public void addRemovalObserver(RemovalObserver observer){
+        removalObservers.add(observer);
     }
 
     /**
@@ -262,18 +277,14 @@ class Library implements ILibrary, Serializable {
     }
 
     private void notifyInsertionObservers(String title, String author) {
-        for(LibraryObserver observer : observers){
-            if(observer instanceof InsertionObserver){
-                observer.update(title, author);
-            }
+        for(InsertionObserver observer : insertionObservers){
+            observer.update(title, author);
         }
     }
 
     private void notifyRemovalObservers(String title, String author) {
-        for(LibraryObserver observer : observers){
-            if(observer instanceof RemovalObserver){
-                observer.update(title, author);
-            }
+        for(RemovalObserver observer : removalObservers){
+            observer.update(title, author);
         }
     }
 

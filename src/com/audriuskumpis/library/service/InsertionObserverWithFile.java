@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * Assures to update log.txt file on book insertion
  */
-class InsertionObserverWithFile implements InsertionObserver {
+public class InsertionObserverWithFile implements InsertionObserver {
     @Override
     public void update(String title, String author) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");

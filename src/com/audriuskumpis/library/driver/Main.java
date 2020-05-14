@@ -3,15 +3,16 @@ package com.audriuskumpis.library.driver;
 import com.audriuskumpis.library.publication.Author;
 import com.audriuskumpis.library.publication.Publication;
 import com.audriuskumpis.library.publication.PublicationTypes;
-import com.audriuskumpis.library.service.ILibrary;
-import com.audriuskumpis.library.service.LibraryFactory;
-import com.audriuskumpis.library.service.PublicationFactory;
+import com.audriuskumpis.library.service.*;
 
 class Main {
 
     private static ILibrary library = LibraryFactory.getInstance();
 
     public static void main(String[] args) {
+
+        library.addInsertionObserver(new InsertionObserverWithFile());
+        library.addRemovalObserver(new RemovalObserverWithFile());
 
         Publication book = new PublicationFactory()
                 .setTitle("Title")
@@ -23,6 +24,7 @@ class Main {
                 .build();
 
         library.addPublication(book);
+        library.removePublication(book);
 
 //       library.addPublication(PublicationFactory.create(PublicationTypes.ENCYCLOPEDIA, "Big Book of British Smiles", new Author("Dentist", "Guy"), 123, 5555, 2020));
 //       library.addPublication(PublicationFactory.create(PublicationTypes.TEXTBOOK, "Just added", new Author("Some", "Guy"), 123, 5555, 2020));

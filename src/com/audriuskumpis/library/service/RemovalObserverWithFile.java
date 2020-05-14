@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * Assures to update log.txt file on book removal
  */
-class RemovalObserverWithFile implements RemovalObserver {
+public class RemovalObserverWithFile implements RemovalObserver {
 
     @Override
     public void update(String title, String author) {
