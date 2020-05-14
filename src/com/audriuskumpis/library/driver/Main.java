@@ -12,8 +12,6 @@ class Main {
     private static ILibrary library = LibraryFactory.getInstance();
 
     public static void main(String[] args) {
-//        loadSer();
-//        printAllList();
 
         Publication book = new PublicationFactory()
                 .setTitle("Title")
@@ -27,7 +25,7 @@ class Main {
         library.addPublication(book);
 
 //       library.addPublication(PublicationFactory.create(PublicationTypes.ENCYCLOPEDIA, "Big Book of British Smiles", new Author("Dentist", "Guy"), 123, 5555, 2020));
-//       library.addPublication(PublicationFactory.create(PublicationTypes.TEXTBOOK, "Some old book, called \"A BAD book\"", new Author("Some", "Guy"), 123, 5555, 2020));
+//       library.addPublication(PublicationFactory.create(PublicationTypes.TEXTBOOK, "Just added", new Author("Some", "Guy"), 123, 5555, 2020));
 //       library.removePublication(new Author("Some", "Guy"), "Some new book, called \"A BAD book\"");
     }
 

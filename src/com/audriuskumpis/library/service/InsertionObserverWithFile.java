@@ -4,6 +4,9 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Assures to update log.txt file on book insertion
+ */
 class InsertionObserverWithFile implements InsertionObserver {
     @Override
     public void update(String title, String author) {

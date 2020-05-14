@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="" />
+    <list default="true" id="9ea9926a-85a5-48c8-a80b-efcc32c5df81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/audriuskumpis/library/driver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/audriuskumpis/library/driver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/audriuskumpis/library/service/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/audriuskumpis/library/service/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/driver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserverWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/InsertionObserverWithFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/LibraryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/LibraryObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserverWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/audriuskumpis/library/service/RemovalObserverWithFile.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +102,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="LibraryGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="libraryGui.LibraryGUI" />
       <module name="Library" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="libraryGui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.audriuskumpis.library.driver.Main" />
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.audriuskumpis.library.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,10 +199,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LibraryGUI" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.BookTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LibraryGUI" />
         <item itemvalue="JUnit.BookTest" />
@@ -228,6 +254,8 @@
       <workItem from="1589276099672" duration="3656000" />
       <workItem from="1589280983525" duration="1651000" />
       <workItem from="1589309392153" duration="618000" />
+      <workItem from="1589433813646" duration="87000" />
+      <workItem from="1589441526179" duration="767000" />
     </task>
     <servers />
   </component>

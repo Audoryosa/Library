@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Assures to update log.txt file on book removal
+ */
 class RemovalObserverWithFile implements RemovalObserver {
 
     @Override
