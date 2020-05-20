@@ -17,7 +17,6 @@ class Library implements ILibrary, Serializable {
     /**
      * Constructor to initialize library service.
      * On creation library and shopping cart lists are instantiated.
-     * Also, two observers are added that keep track of publications' insertion and removal.
      */
     Library(){
         library = new ArrayList<>();
